@@ -8,5 +8,5 @@ import java.util.Map;
 @AllArgsConstructor
 @Getter
 public class Computer {
-    private Map<String, String> computerParts;
+    private Map<ComputerPart, String> computerParts;
 }

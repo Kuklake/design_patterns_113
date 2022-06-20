@@ -5,8 +5,9 @@ import java.util.Map;
 
 public abstract class ComputerBuilder {
 
-    protected Map<String, String> computerParts = new HashMap<>();
+    protected Map<ComputerPart, String> computerParts = new HashMap<>();
 
+//    template method
     public final Computer buildComputer() {
         addMotherboard();
         setupMotherboard();
